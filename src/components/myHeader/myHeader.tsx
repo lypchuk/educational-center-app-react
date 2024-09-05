@@ -14,6 +14,7 @@ function MyHeader(props) {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="courseslist">Courses</Nav.Link>
+                            <Nav.Link href="addcourse">Add courses</Nav.Link>
                             <Nav.Link href="categorieslist">Categories</Nav.Link>
                             <Nav.Link href="addcategory">Add category</Nav.Link>
                             <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">

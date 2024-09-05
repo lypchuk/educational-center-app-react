@@ -7,6 +7,7 @@ import MyHeader from "./components/myHeader/myHeader.tsx";
 import CategoriesList from "./components/categories/list/CategoriesList.tsx";
 import CreateCategory from "./components/categories/create/CreateCategory.tsx";
 import CoursesList from "./components/courses/list/CoursesList.tsx";
+import CreateCourse from "./components/courses/create/CreateCourse.tsx";
 //import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 {/*<Route index element={<MyHeader />} />*/}
                 <Route path={"/categorieslist"} element={<CategoriesList />} />
                 <Route path={"/courseslist"} element={<CoursesList />} />
+                <Route path={"/addcourse"} element={<CreateCourse />} />
                 <Route path={"/addcategory"} element={<CreateCategory />} />
                 {/*//<Route path={"main"} element={<MyHeader />} />*/}
             </Route>
